@@ -2,13 +2,13 @@ import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 
-import afroditeVideo from "../../../../assets/images/Timeline 1.mp4";
+import afroditeVideo from "../../../../assets/images/Timeline_1.mp4";
 import poseidonVideo from "../../../../assets/images/Poseidon.mp4";
 import atenaVideo from "../../../../assets/images/0001-0103.mp4";
 import apoloVideo from "../../../../assets/images/0001-0240.mp4";
 import ivan1Img from "../../../../assets/images/Ivan-1.png";
 import ivan2Img from "../../../../assets/images/Ivan-2.png";
-import loboImg from "../../../../assets/images/lobo.png"; 
+import loboImg from "../../../../assets/images/lobo.jpeg"; 
 import funcDiaImg from "../../../../assets/images/l3uJ9J.png";
 import ossuarioImg from "../../../../assets/images/ossuario.png";
 import magoGif from "../../../../assets/images/mago.gif";
@@ -51,7 +51,7 @@ const ProjectsSection: React.FC = () => {
             srcImg: apoloVideo,
             description: "Parte 4 de uma série de curtas-metragens animados que contam a história dos doze deuses do Olimpo em uma nova perspectiva. Apolo, o deus do sol, é retratado em um cenário dramático, com raios solares dourados iluminando sua figura enquanto ele segura um arco e flecha, disparando a flecha.",
             technologies: "Blender",
-            websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
+            websiteURL: "null",
         },
         {
             title: "O Vazio",
@@ -59,7 +59,7 @@ const ProjectsSection: React.FC = () => {
             srcImg: ivan1Img,
             description: "Esta imagem foi desenvolvida como uma peça de arte conceitual para explorar iluminação dramática e composição. O destaque da cena é o modelo do personagem, que é um asset de minha autoria, criado do zero. O foco deste projeto foi trabalhar a integração do modelo original em um ambiente narrativo, testando texturas de desgaste e o comportamento dos materiais sob luz pontual.",
             technologies: "Blender, Substance Painter",
-            websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
+            websiteURL: "null",
         },
         {
             title: "O Interrogatório",
@@ -67,7 +67,7 @@ const ProjectsSection: React.FC = () => {
             srcImg: ivan2Img,
             description: "Arte conceitual retratando uma cena de interrogatório. O foco da composição é um modelo original que desenvolvi, inserido neste ambiente para criar uma narrativa de tensão e suspense.",
             technologies: "Blender, Substance Painter",
-            websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
+            websiteURL: "null",
         },
         {
             title: "LOBO Tomia",
@@ -99,7 +99,7 @@ const ProjectsSection: React.FC = () => {
             srcImg: magoGif,
             description: "Essa animação foi criada para um jogo que estou desenvolvendo com alguns amigos como projeto independente. O personagem é um mago que seria o protagonista do jogo. A animação mostra o mago em uma pose de idle.",
             technologies: "Technologies: Aseprite",
-            websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
+            websiteURL: "null",
         },
         {
             title: "Espada Meele Attack",
@@ -107,7 +107,7 @@ const ProjectsSection: React.FC = () => {
             srcImg: espadaGif,
             description: "Essa animação foi criada para um jogo que estou desenvolvendo com alguns amigos como projeto independente. A animação mostra uma espada, que seria um dos primeiros inimigos do jogo, realizando um ataque corpo a corpo (meele attack), sendo apenas uma das animações de ataque do inimigo.",
             technologies: "Technologies: Aseprite",
-            websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
+            websiteURL: "null",
         },
     ]
 
